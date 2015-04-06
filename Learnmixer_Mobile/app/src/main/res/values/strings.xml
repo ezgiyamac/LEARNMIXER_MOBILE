@@ -5,4 +5,12 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <string name="edit_message1">Enter your username</string>
+    <string name="edit_message2">Enter your password</string>
+    <string name="edit_message3">Enter your dislike</string>
+    <string name="btn_login">LOGIN</string>
+
+
+
+
 </resources>
