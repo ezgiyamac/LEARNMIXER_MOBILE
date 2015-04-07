@@ -55,7 +55,7 @@
                 android:layout_gravity="center_vertical" />
 
             <EditText
-                android:id="@+id/edit_message1"
+                android:id="@+id/edt_txt_username"
                 android:layout_weight="1"
                 android:layout_width="1dp"
                 android:textSize="15dp"
@@ -82,7 +82,7 @@
                 android:textColor="#FFFF00"
                 android:layout_gravity="center_vertical" />
             <EditText
-                android:id="@+id/edit_message2"
+                android:id="@+id/edt_txt_password"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:textSize="15dp"
@@ -95,6 +95,7 @@
             android:layout_width="210dp"
             android:layout_height="wrap_content"
             android:text="@string/btn_login"
+            android:id="@+id/btn_login"
             android:onClick="sendMessage"
             android:textColor="#FFFF00"
             android:background="#484940"

@@ -1,9 +1,13 @@
 package com.example.eeristi.learnmixer_mobile;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -12,6 +16,28 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Button my_btn_login = (Button) findViewById(R.id.btn_login);
+        final EditText my_username = (EditText) findViewById(R.id.edt_txt_username);
+        final EditText my_password = (EditText) findViewById(R.id.edt_txt_password);
+
+        my_btn_login.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                if (my_username.getText().toString().equals("ezgi") && my_password.getText().toString().equals("yamac") )
+                {
+                    startActivity(new Intent("com.example.eeristi.learnmixer_mobile.SCREEN_TWO"));
+                }
+
+
+            }
+        });
+
+
+
+
     }
 
 
