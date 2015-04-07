@@ -28,11 +28,15 @@ public class screen2 extends ListActivity
     {
         if(position==0)
         {
-            startActivity(new Intent("com.example.eeristi.learnmixer_mobile.SCREEN_TWO"));
+            startActivity(new Intent("com.example.eeristi.learnmixer_mobile.SCREEN_TWO_one"));
         }
         else if(position==1)
         {
-            startActivity(new Intent("com.example.eeristi.learnmixer_mobile.SCREEN_TWO"));
+            startActivity(new Intent("com.example.eeristi.learnmixer_mobile.SCREEN_TWO_two"));
+        }
+        else if(position==2)
+        {
+            startActivity(new Intent("com.example.eeristi.learnmixer_mobile.SCREEN_TWO_three"));
         }
 
         super.onListItemClick(lv, v, position, id);
