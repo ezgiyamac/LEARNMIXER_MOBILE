@@ -20,8 +20,8 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         Button my_btn_login = (Button) findViewById(R.id.btn_login);
-        final EditText my_username = (EditText) findViewById(R.id.edt_txt_username);
-        final EditText my_password = (EditText) findViewById(R.id.edt_txt_password);
+        final EditText my_username = (EditText) findViewById(R.id.edt_username);
+        final EditText my_password = (EditText) findViewById(R.id.edt_password);
         final AlertDialog alertDialog = new AlertDialog.Builder(this).create();
 
 
